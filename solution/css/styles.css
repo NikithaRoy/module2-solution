@@ -6,15 +6,27 @@
   h1 {
 	text-align: center;
 }
-.col-lg-4, .col-md-6, .col-md-12 {
-	border:2px solid black;
-	background-color: #C0C0C0;
-	padding: 0px 0px 0px 10px;
-	width: 90%;
-	margin-left: 10px;
-	margin-right: auto;
+
+.row {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-section {
+
+.section {
+  border:2px solid black;
+  background-color: #C0C0C0;
+  padding: 0px 0px 0px 10px;
+  width: 90%
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+p {
+	clear: both;
+}
+.Chicken{
 	position: relative;
 	float: right;
 	padding :5px 10px 5px 10px;
@@ -22,18 +34,27 @@ section {
 	margin: 0px 0px 5px 0px;
 	width: 100px;
 	text-align: center;
-}
-p {
-	clear: both;
-}
-#box1{
 	background-color: #E9967A;
 }
 
-#box2{
+.Beef{
+	position: relative;
+	float: right;
+	padding :5px 10px 5px 10px;
+	border:2px solid black;
+	margin: 0px 0px 5px 0px;
+	width: 100px;
+	text-align: center;
 	background-color: #8B0000;
 	color: white;
 }
-#box3{
+.Sushi{
+	position: relative;
+	float: right;
+	padding :5px 10px 5px 10px;
+	border:2px solid black;
+	margin: 0px 0px 5px 0px;
+	width: 100px;
+	text-align: center;
 	background-color: #FFD700;
 }
